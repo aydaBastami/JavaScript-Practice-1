@@ -1,9 +1,9 @@
 let Submit = document.querySelector(".submit");
-let LoginForm = document.querySelector(".Login-Form")
+let SignUpForm = document.querySelector(".SignUp-Form")
 Submit.addEventListener("click", (e) => {
     e.preventDefault()
-    const username = LoginForm.username.value;
-    const password = LoginForm.password.value;
+    const username = SignUpForm.username.value;
+    const password = SignUpForm.password.value;
     
     if (password.length > 6) {
         alert("You have successfully logged in.");
