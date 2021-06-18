@@ -6,7 +6,7 @@ Submit.addEventListener("click", (e) => {
     const password = SignUpForm.password.value;
     
     if (password.length > 6) {
-        alert("You have successfully logged in.");
+        alert("you have successfully signed up.");
         location.reload();
     } 
     else if (!username || !password){
